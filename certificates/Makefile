@@ -1,16 +1,16 @@
 # サーバー証明書をコピー
-# make cp-cert DOMAIN=example.com
+# make cp-cert DOMAIN=example.net
 cp-cert:
 	cat ${DOMAIN}/cert.pem | pbcopy
 	
 # 秘密鍵をコピー
-# make cp-privkey DOMAIN=example.com
+# make cp-privkey DOMAIN=example.net
 .PHONY: cp-privkey
 cp-privkey:
 	sudo cat ${DOMAIN}/privkey.pem | pbcopy
 
 # 中間CA局証明書をコピー
-# make cp-chain DOMAIN=example.com
+# make cp-chain DOMAIN=example.net
 .PHONY: cp-chain
 cp-chain:
 	cat ${DOMAIN}/chain.pem | pbcopy
