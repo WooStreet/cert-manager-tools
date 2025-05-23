@@ -1,0 +1,26 @@
+{
+  "name": "cert-manager-tools",
+  "version": "1.0.0",
+  "description": "自己証明書の作成や検証を行うツール集です。 ローカルの環境で証明書を検証することを目的としています。 手元で証明書を作成、検証してaws,gcp,azureなどの証明書マネージャーに登録することを想定しています。 あくまでも検証用で使用することを想定しています。なので本番環境での使用は推奨しません。コード参考にするぐらいにしておいてください。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WooStreet/cert-manager-tools.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WooStreet/cert-manager-tools/issues"
+  },
+  "homepage": "https://github.com/WooStreet/cert-manager-tools#readme",
+  "devDependencies": {
+    "@types/node": "^22.15.21",
+    "ts-node": "^10.9.2",
+    "tslib": "^2.8.1",
+    "typescript": "^5.8.3"
+  }
+}
